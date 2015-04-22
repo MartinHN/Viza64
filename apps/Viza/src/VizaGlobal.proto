@@ -1,0 +1,27 @@
+package Viza;
+
+
+
+
+
+message Song{
+required string name = 1;
+required float length = 2;
+required uint32 numSlice = 3;
+optional string audioPath = 5;
+
+}
+
+message Class {
+required string name = 1;
+repeated string values = 2;
+}
+
+
+
+message GlobalList{
+repeated string AttributesNames = 1;
+repeated Class classes = 2;
+repeated Song songs = 3;
+required uint32 numContainer = 4;
+}

@@ -1,0 +1,11 @@
+ofx3DModelLoader
+ofxAssimpModelLoader
+ofxGui
+ofxNetwork
+ofxOpenCv
+ofxOsc
+ofxSyphon
+ofxUI
+ofxVectorGraphics
+ofxXmlSettings
+ofxJSON

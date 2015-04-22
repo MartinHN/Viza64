@@ -1,0 +1,19 @@
+package Viza;
+
+
+
+message Container {
+required float sliceBegin = 1;
+required float sliceEnd = 2;
+repeated float  attributeValues = 3;
+repeated uint32 classes = 4;
+required uint32 sliceIdx = 5;
+
+
+
+}
+
+message ContainerList{
+repeated Container containers = 1;
+required uint32 songIdx = 2;
+}
